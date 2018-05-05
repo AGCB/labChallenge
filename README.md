@@ -17,3 +17,5 @@ The goal of this exercise is to build a “Purchase Summary” user interface us
 Clicking on “See Item Details” toggles open/close all the items’ details (not individually)
 
 Bonus points for building it in a responsive manner (scales by % of page width)
+
+![walmartgif](https://user-images.githubusercontent.com/13634063/39666135-d146d084-5053-11e8-8f28-182bfad97b03.gif)
