@@ -7,11 +7,15 @@ class Details2 extends React.Component {
       <div className="container">
         <img alt="stockPhoto"
              src={this.props.url}/>
-        <div className="deets">
-          <p>put description here</p>
-          <p> BoldPrice    Qty:1</p>
-          <p> OldPrice</p>
+        <div className="d2-rhs">
+          <p>{this.props.description}</p>
+          <div className="pq">
+            <p className="price"> <b>{this.props.price}</b></p>
+            <p className="qty">    Qty:1</p>
+          </div>
+          <p className="oldPrice">{this.props.oldPrice}</p>
         </div>
+
       </div>
     )
   }

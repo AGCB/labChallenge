@@ -13,7 +13,7 @@ class App extends Component {
       detailsToggle: false,
       promoToggle: false,
       item: {
-        description: "some description",
+        description: "Essentials by OFM ESS-3085 Racing Style Leather Gaming Chair, Red",
         newPrice: "$205.20",
         oldPrice: "$250.00",
         qty: 1,
@@ -49,6 +49,9 @@ class App extends Component {
         <Details showDetails={this.showDetails}
                  detailSign={this.state.detailsToggle}
                  url={this.state.item.url}
+                 description={this.state.item.description}
+                 price={this.state.item.newPrice}
+                 oldPrice={this.state.item.oldPrice}
                   />
         <Promo showPromo={this.showPromo}
                promoSign={this.state.promoToggle}/>
