@@ -1,5 +1,4 @@
 import React from 'react';
-import './Info.css';
 
 class Info extends React.Component {
   constructor(props) {
